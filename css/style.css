@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500;600;700&family=Roboto&display=swap');
+@import	url('components/container.css');
+@import	url('components/avatar.css');
+@import	url('components/button.css');
+@import	url('components/banner.css');
+@import	url('components/card.css');
+
+
+body {
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 18px;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.01);
+	color: #002453;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+h2 {
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+.typeform-widget {
+	margin-top: 20px;
+}
+
+/* flexbox 
+
+display : flex; 
+
+horizontal :
+justify-content : space-around;
+justify-content : space-between;
+
+vertical :
+align-items : flex-start;
+align-items : flex-end;
+align-items : center;
+
+specific item :
+flex-grow : 1s;
+
+flex-basis : 200px;
+flex-wrap: wrap;
+flex-grow : 1;
+
+*/ 
